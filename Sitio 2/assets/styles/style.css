@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    height: 84px;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-left: 1.5em;
+    color: aliceblue;
+}
+
+.text {
+    color: white;
+    align-items: center;
+    margin-right: auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5em;
+}
+
+.menu ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1.5rem;
+}
+
+.menu a:hover {
+    color: orange;
+    transition: 0.5s;
+}
+
+main {
+    padding: 30px;
+    padding-top: 84px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+main .logo {
+    width: 15vw;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+main .hockey {
+    width: 40vw;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.inicio {
+    max-width: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 80px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 25vw;
+}
+
+.about {
+    max-width: 40vw;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.event {
+    align-items: center;
+    display: flex;
+    flex-direction: column
+}
+
+.event ul {
+    padding: 0px;
+}
+
+.event li {
+    list-style: none;
+}
+
+.image3 {
+    width: 100%;
+    padding-top: 40px;
+    margin: 0 auto;    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.hockey3 {
+    width: 40vw;
+}
